@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bdg2504ofjquj"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_m6kgh"]
+
+[node name="BodySegment" type="Node2D"]
+scale = Vector2(64, 64)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("CanvasTexture_m6kgh")
